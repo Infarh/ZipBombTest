@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "console",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/ZipBombTest/bin/Debug/net8.0/ZipBombTest.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ZipBombTest",
+            "console": "internalConsole", //internalTerminal
+            "stopAtEntry": false,
+            "logging": {
+                "moduleLoad": false,
+                "processExit": false,
+                "threadExit": false,
+
+            }
+        }
+    ]
+}
