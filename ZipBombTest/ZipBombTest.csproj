@@ -8,4 +8,9 @@
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Using Include="ZipBombTest.Infrastructure" />
+    <Using Include="System.Diagnostics.DebuggerStepThroughAttribute" Alias="DST" />
+  </ItemGroup>
+
 </Project>
